@@ -1,0 +1,19 @@
+.NavItem{
+	//border:1px solid black;
+	display:flex;
+	margin:0 10px 0 10px;
+}
+.NavItem a{
+	text-decoration:none;
+	padding:10px;
+	//border:2px solid #ffff1a;
+	border-radius: 30%;
+	color:white;
+	box-shadow:0 2px 8px green;
+}
+.NavItem a:hover,
+.NavItem a:active,
+.NavItem a.active{
+	background-color:#99ffcc;
+	color:#009900;
+}

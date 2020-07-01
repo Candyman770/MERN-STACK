@@ -1,0 +1,8 @@
+.DishComment{
+	width:100%;
+	box-shadow: 0 2px 8px #cccccc;
+	border:1px solid #eeeeee;
+	font-size:88%;
+	padding-left:10px;
+	margin-bottom: 10px
+}

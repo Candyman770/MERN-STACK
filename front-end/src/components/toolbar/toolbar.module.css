@@ -1,0 +1,45 @@
+.Toolbar{
+	width:100%;
+	display:flex;
+	//border:1px solid blue;
+	justify-content: space-between;
+	font-size: 85%;
+	font-weight: bold;
+	//height:10vh;
+	background-color: #00cc00;
+	color:white;
+	//box-shadow: 0 0 8px green;
+	position: fixed;
+}
+.Toolbar > *{
+	//border:1px solid red;
+	display: flex;
+}
+.Toolbar h2{
+	margin-left:10px;
+	font-family: 'Piedra', cursive;
+	text-shadow: 0 4px 10px #004d00;
+}
+.Toolbar img{
+	width:60px;
+	height: 85%;
+	border-radius:10px;
+	box-shadow: 0 2px 8px green;
+}
+.Toolbar div {
+	align-items: center;
+	margin-left:10px;
+}
+.Toolbar div > *{
+	//border:1px solid yellow;
+}
+@media(max-width: 800px){
+	.Toolbar {
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+	.Toolbar div{
+		flex-basis:100%;
+	}
+}
+

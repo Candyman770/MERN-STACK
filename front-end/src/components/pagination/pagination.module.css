@@ -1,0 +1,30 @@
+.Pagination{
+	//border:1px red solid;
+	width:238px;
+	display: flex;
+	margin:0 auto;
+	//padding:10px;
+}
+.Pagination > *{
+	flex-basis:26px;
+	//display: flex;
+	border:2px black solid;
+	//justify-content:center;
+	margin:0 4px 0 4px;
+	text-align: center;
+	padding:2px 0 2px 0;
+	font-weight: bold;
+	color:black;
+}
+.Pagination a{
+	text-decoration:none;
+}
+.Pagination a:hover,
+.Pagination a:active,
+.Pagination a.active{
+	background-color: black;
+	color:white;
+}
+.Pagination a.active{
+	cursor:not-allowed;
+}

@@ -1,0 +1,37 @@
+.Favorite{
+	display:flex;
+	flex-wrap:wrap;
+	//border:1px solid orange;
+	justify-content: center;
+}
+.Remove{
+	padding:2px;
+	margin-right:5px;
+	border:2px solid goldenrod;
+	background-color: white;
+	border-radius: 10%;
+	color:goldenrod;
+}
+.Remove:hover{
+	background-color: goldenrod;
+	color:white;
+}
+.Content{
+	margin-left: 30px;
+}
+.Content h2{
+	font-family: 'Suez One', serif;
+}
+.Content button{
+	width:150px;
+	padding:7px;
+	border-radius:10px;
+	border:2px solid black;
+	font-weight:bold;
+	background-color: white;
+}
+.Content button:hover{
+	background-color: black;
+	color:white;
+	cursor:pointer;
+}

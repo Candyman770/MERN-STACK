@@ -1,0 +1,26 @@
+.NavItems{
+	display:flex;
+	list-style:none;
+	//border:1px solid green;
+	align-items: center;
+	margin:0 10px 0 10px;
+	padding:0;
+}
+.NavItems li{
+	//border:1px solid black;
+	display:flex;
+	margin:0 10px 0 10px;
+}
+.User{
+	text-decoration:none;
+	padding:10px;
+	//border:2px solid #ffff1a;
+	border-radius: 30%;
+	color:white;
+	box-shadow:0 2px 8px green;
+}
+.User:hover{
+	background-color:#99ffcc;
+	color:#009900;
+	cursor:pointer;
+}

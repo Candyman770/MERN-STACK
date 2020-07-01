@@ -1,0 +1,31 @@
+.Dishes{
+	display:flex;
+	flex-wrap:wrap;
+	//border:1px solid orange;
+	justify-content: center;
+	//align-items: center;
+	margin:10px 0 20px 0;
+}
+h2{
+	//flex-basis:100%;
+	margin-left:20px;
+	font-family: 'Suez One', serif;
+}
+.Favorite{
+	background-color: white;
+	border:3px solid #ff0066;
+	color: #ff0066;
+	margin-right: 5px;
+	border-radius:5px;
+}
+.Favorite:hover{
+	color: white;
+	background-color: #ff0066;
+}
+.Remove{
+	border:3px solid #ff0066;
+	color: white;
+	background-color: #ff0066;
+	border-radius:5px;
+	margin-right: 5px;
+}

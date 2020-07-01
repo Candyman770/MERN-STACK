@@ -1,0 +1,58 @@
+.DishComments{
+	width:90%;
+	//border:1px solid black;
+	font-family:'Seriracha', cursive;
+	margin:0 auto;
+}
+.DishComments img{
+	width:500px;
+	border-radius:10px;
+}
+.Content{
+	display: flex;
+	margin-bottom: 20px;
+	//border:1px red solid;
+	justify-content: space-between;
+	width:70%;
+}
+.DishComments h2{
+	font-family: 'Suez One', serif;
+	color:orange;
+}
+.Content span{
+	padding:10px;
+}
+.DishComments label{
+	margin-right:10px;
+	font-weight: bold;
+}
+.DishComments textarea{
+	width:70%;
+	border:2px solid black;
+	font-weight: bold;
+}
+.DishComments select{
+	font-size:105%;
+	border:2px solid black;
+}
+.DishComments button{
+	margin:0 5px 5px 0;
+	padding:2px;
+	width:50px;
+	background-color: black;
+	color:white;
+	border:none;
+	border-radius:10px;
+}
+.Button{
+	width:100px !important;
+
+	padding:4px !important;
+	font-weight: bold;
+
+}
+.DishComments button:focus{
+	outline :none;
+}
+
+

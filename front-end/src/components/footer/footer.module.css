@@ -1,0 +1,16 @@
+.Footer{
+	//border:1px solid red;
+	width:100%;
+	padding:20px;
+	box-sizing:border-box;
+	background-color: #293d3d;
+	color:white;
+	font-weight: bold;
+	margin-top:50px;
+	font-family: 'Balsamiq Sans', cursive;
+}
+.Social a{
+	font-size:30px;
+	margin:10px;
+	color:orange;
+}

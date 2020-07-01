@@ -1,0 +1,59 @@
+.Dish{
+	width: 230px;
+	//border:1px solid red;
+	margin:10px;
+	display:flex;
+	flex-wrap:wrap;
+	justify-content: center;
+	align-items: center;
+	font-size:85%;
+	font-family: 'Seriracha', cursive;
+	padding:0 7px 0 7px;
+	box-shadow:0 2px 8px #cccccc;
+	transition: transform ease-out 0.2s;
+	box-sizing: border-box;
+}
+.Dish:hover{
+	transform: scale(1.03);
+}
+
+.Dish p{
+	margin:0;
+	padding:0;
+	flex-basis:100%;
+
+}
+.Name{
+	flex-grow: 1;
+	font-size:105%;
+	font-weight: bold;
+	color:#ff6600;
+	flex-basis:20px;
+	//border:1px solid orange;
+}
+
+.Dish img{
+	width:85%;
+	height:20%;
+}
+
+.Dish button{
+	align-self:flex-end;
+	margin-bottom: 10px;
+	font-size:15px;
+
+}
+.Dish button:hover{
+	cursor: pointer;
+}
+.Comments{
+	border:2px solid #339933;
+	color:#339933;
+	font-weight: bold;
+	border-radius: 5px;
+	background-color: white;
+}
+.Comments:hover{
+	color:white;
+	background-color: #339933;
+}

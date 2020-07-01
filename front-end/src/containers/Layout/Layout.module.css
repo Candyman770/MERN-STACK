@@ -1,0 +1,13 @@
+.Layout{
+	display:flex;
+	flex-flow:column;
+	//justify-content: space-between;
+	//align-items:center;
+}
+.Layout main{
+	margin-top: 50px;
+	z-index: 10;
+}
+.Layout header{
+	z-index:20;
+}
